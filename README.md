@@ -9,7 +9,7 @@ This repository documents neural network architectures, training workflows, and 
 
 ## Key Projects & Experiments
 
-* **Post-Training Model Quantization (MNIST CNN):** Converted a Keras convolutional neural network (`2.61 MB`, `99.00%` accuracy) into a TensorFlow Lite model (`0.22 MB`, `98.38%` accuracy) to evaluate size and latency trade-offs.
+* **Post-Training Model Quantization (MNIST CNN):** Converted a Keras convolutional neural network into a TensorFlow Lite model to evaluate size and latency trade-offs.
 * **Time-Series Forecasting (Jena Climate LSTM):** Built an LSTM sequence forecasting pipeline with temporal windowing and feature scaling, achieving a test MSE of `0.0066` and test MAE of `0.0573` over 15 epochs.
 * **Text Classification (Bidirectional LSTM):** Developed a Bidirectional LSTM classifier for spam/ham detection, reaching `98.21%` test accuracy and a `0.9528` validation F1 score.
 * **Sentiment Analysis (Fine-Tuned BERT):** Fine-tuned a pretrained BERT model on IMDb movie reviews using Hugging Face `Trainer`, comparing baseline and tuned hyperparameter configurations.
